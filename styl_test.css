@@ -1,0 +1,77 @@
+body{
+    width: 100%;
+}
+.container{
+    display: flex;
+}
+.container .right{
+    background-image: url("images/background.jpg");
+    width: 130%;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    margin: 30px;
+    margin-left: 0px;
+}
+.container .left{
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color: white;
+    margin: 30px;
+    margin-right: 0px;
+}
+.left .log{
+    margin-top: 12rem;
+}
+input[type="submit"]{
+    position: absolute;
+    margin-top: 30px;
+    background-color: rgb(95, 95, 92);
+    width: 150px;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.right .bas{
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 150px;
+    width: 500px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.right .nav ul li{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 10px;
+    margin-left: 70px;
+}
+hr{
+    margin-left: 50px;
+    margin-top: -2px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.home{
+    margin-top: 30px;
+}
+.log h2{
+    color: rgb(95, 95, 92);
+}
+.right h2{
+    color: rgb(95, 95, 92);
+}
+table{
+    margin-left: 20px;
+}
+
+
