@@ -59,6 +59,9 @@ body{
 a{
   text-decoration: none;
 }
+.nav-item .nav-link{
+  color: black;
+}
 .room{
   height: 150px;
   width: 500px;
@@ -66,6 +69,11 @@ a{
   right: 0;
   background-color: #fff;
   padding: 10px;
+}
+@media (min-width: 767.98px){
+  .menu-mobile{
+    display: none;
+  }
 }
 @media (max-width: 1280px){
   .room{
@@ -89,19 +97,27 @@ a{
 }
 
 @media (max-width: 768px){
+  .menu-mobile{
+    display: block;
+  }
   .room{
-    top: 48.50rem;
+    top: 45rem;
   }
   .navbar{
     display: none;
+  }
+  .home{
+    display: none;
+  }
+  .text-idea{
+    margin-top: 10%;
   }
 }
 
 @media (max-width: 425px){
   .room{
-    width: 100%;
     /* border: 1px solid; */
-    margin-top: -5rem;
+  top: 43rem;
   } 
 }
 @media (max-width: 540px){
