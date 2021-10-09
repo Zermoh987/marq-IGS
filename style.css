@@ -115,11 +115,12 @@ a{
 }
 
 @media (max-width: 425px){
+
   .room{
-    /* border: 1px solid; */
-  top: 43rem;
+    top: 43rem;
   } 
 }
+
 @media (max-width: 540px){
   .room{
     width: 100%;
